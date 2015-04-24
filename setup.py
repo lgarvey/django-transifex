@@ -24,6 +24,7 @@ setup(
     tests_require=[
     ],
     install_requires=open('requirements.txt').read(),
+    package_data={'djangotransifex': ['version.txt']},
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
